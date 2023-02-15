@@ -1,0 +1,342 @@
+body{
+    background-color:#F5F5F5;
+}
+.container{
+    max-width: 1240px;
+    width: 90%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+body header{
+    background-color: #F5EFEF;
+    padding: 33px 0;
+}
+body header .container .inner-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+body header .container .inner-header nav{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+body header .container .inner-header nav ul{
+    display: flex;  
+}
+body header .container .inner-header nav ul li{
+    margin-right: 48px;
+}
+body header .container .inner-header nav ul li a{
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F3232;
+}
+body header .container .inner-header .user-profile{
+    border: 1px solid #FFFFFF;
+    border-radius: 576.573px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+body header .container .inner-header nav ul .active{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    font-family:"cinzel-400", sans-serif;
+}
+
+/* main section specials */
+
+body .container .specials-box{
+    margin-top: 250px;
+}
+body .container .specials-box h2{
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: bold;
+    font-size:18px;
+    line-height: 70px;
+    color: #000000;
+    text-shadow: 0px 11.5315px 11.5315px rgba(0, 0, 0, 0.25);
+    margin-bottom: 100px;
+}
+body .container .specials-box .boxes .box{
+    width: 27%;
+    padding: 15px;
+    border: 1px solid #75464AB2;
+    border-radius: 10px;
+}
+body .container .specials-box .boxes .box h3{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 20px;
+    color: #121111;
+    margin-top: 10px;
+}
+span{
+    font-family:"cinzel-400", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    float: right;
+}
+body .container .specials-box .boxes .box p .new-in-stock{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: #FF0000;
+    float: left;
+}
+body .container .specials-box .boxes .box p{
+    font-family:"cinzel-400", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    color: #121111;
+    margin-bottom: 10px ;
+    text-decoration-line: underline;
+}
+body .container .specials-box .boxes .box button{
+    cursor: pointer;
+    padding: 11px 15px;
+    border: none;
+    background: #3F3232;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-family:"cinzel-700", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+body .container .specials-box .view-more{
+    cursor: pointer;
+    width: 230px;
+    height: 60px;
+    background: #3F3232;
+    color: #fff;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+    float: right;
+    margin-top: 80px;
+}
+
+/* footer */
+footer{
+    background-color: #F5EFEF;
+}
+body footer .footer-box {
+    height: 300px;
+    margin-top: 200px;
+}
+
+body footer .footer-box .logo-socials .socials {
+    display: flex;
+    gap: 27px;
+}
+body footer .footer-box .logo-socials p{
+    font-family:"cinzel-400", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;    
+    margin: 11px 0 45px 0;
+}
+body footer .footer-box .footer-li{
+    display: flex;
+    align-items: center;
+    gap: 145px;
+}
+body footer .footer-box .footer-li ul li a{
+    font-family:"cinzel-400", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #75464A;
+}
+body footer .footer-box .footer-li ul li {
+    margin-bottom: 36px;    
+}
+body footer .footer-box .footer-li .location a {
+display: flex;
+align-items: center;
+gap: 18px;
+}
+
+/* gallery page */
+body main .gallery h2{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 280px;
+    margin-bottom: 100px;
+}
+body main .gallery .gallery-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+body main .gallery .gallery-imgs .gallery-item{
+    flex: 20 1 30%; 
+    padding: 50px;  
+}
+body main .gallery .gallery-imgs img{
+     width: 300px; 
+     transition: 300ms;  
+}
+body main .gallery .gallery-imgs img:hover {
+    transform: scale(1.1); 
+    filter: drop-shadow(0px 0px 20px rgba(212, 18, 18, 0.25));
+}
+
+/* faq page */
+
+body main .faq-page h2{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin: 260px 0 115px;
+}
+body main .faq-page h3{
+    font-family:"openSans-600", sans-serif;
+    font-size: 25px;
+    line-height: 34px;
+    color: #121111;
+    margin-top: 120px;
+    padding-bottom: 22px;
+    border-bottom:  1px solid #75464A;
+}
+body main .faq-page p{
+    font-family:"openSans-400", sans-serif;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    margin-top: 45px;
+}
+
+
+/* about us page */
+
+body main .about-page h2{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin: 260px 0 115px;
+}
+body main .about-page .about-box p{
+    font-family:"cinzel-400", sans-serif;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.text-sizes{
+    margin-right: 140px;
+
+}
+
+/* contact page */
+body main .container .title{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;    
+    margin: 260px 0 70px;
+}
+main .container .contact-info{
+    text-align: center;
+}
+main .container .contact-info h2{
+    font-family:"cinzel-700", sans-serif;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000;
+    margin-bottom: 15px
+}
+main .container .contact-info p{
+    font-family:"cinzel-400", sans-serif;
+    font-size: 18px;
+    line-height: 160%;
+    color: #000000; 
+}
+.forms{
+    margin-top: 130px;   
+}
+.flex-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
+label {
+    display: block;
+    margin:65px 0 15px;
+}
+input[type=text] {
+    width: 390px;
+    height: 40px;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 10px;
+    font-size: 16px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 0 12px 50px;
+    outline: none;
+}
+input[type=email] {
+    width: 390px;
+    height: 40px;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 10px;
+    font-size: 16px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 0 12px 50px;
+    outline: none;
+}
+textarea {
+    padding: 12px;
+    border: 1px solid rgba(117, 70, 74, 0.7);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    width: 400px;
+    height: 400px;
+    
+}
+
+iframe {
+    margin:65px 0 15px;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+}
+
+.color{
+    background-color: #3F3232;
+    color:#FFFFFF;
+    width: 224px;
+    height: 63.44px;
+    border-radius: 10px;
+    margin-left: 1200px;
+    margin-top: 40px;
+
+}
+
+.required{
+    color: #FF0000;
+    margin-right: 295px;
+}
