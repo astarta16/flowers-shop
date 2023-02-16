@@ -57,7 +57,7 @@ a{
 body .container .specials-box{
     margin-top: 250px;
 }
-body .container .specials-box h2{
+body .container .specials-box h1{
     font-family: 'Cinzel';
     font-style: normal;
     font-weight: bold;
@@ -171,13 +171,14 @@ gap: 18px;
 }
 
 /* gallery page */
-body main .gallery h2{
+body main .gallery h1{
     font-family:"cinzel-700", sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #000000;
     margin-top: 280px;
     margin-bottom: 100px;
+    margin-left: 50px;
 }
 body main .gallery .gallery-imgs{
     display: flex;
@@ -200,7 +201,7 @@ body main .gallery .gallery-imgs img:hover {
 
 /* faq page */
 
-body main .faq-page h2{
+body main .faq-page h1{
     font-family:"cinzel-700", sans-serif;
     font-size: 18px;
     line-height: 24px;
@@ -227,7 +228,7 @@ body main .faq-page p{
 
 /* about us page */
 
-body main .about-page h2{
+body main .about-page h1{
     font-family:"cinzel-700", sans-serif;
     font-size: 18px;
     line-height: 24px;
@@ -257,12 +258,12 @@ body main .container .title{
 main .container .contact-info{
     text-align: center;
 }
-main .container .contact-info h2{
+main .container .contact-info h1{
     font-family:"cinzel-700", sans-serif;
     font-size: 18px;
     line-height: 160%;
     color: #000000;
-    margin-bottom: 15px
+    margin-bottom: 15px;
 }
 main .container .contact-info p{
     font-family:"cinzel-400", sans-serif;
