@@ -11,7 +11,6 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
 /* header */
 body header{
     background-color: #F5EFEF;
@@ -43,14 +42,11 @@ body header .container .inner-header .user-profile{
 body header .container .inner-header nav ul .active{
     font-weight: bold;
 }
-
 a{
     text-decoration: none;
     font-family:"cinzel-400", sans-serif;
 }
-
 /* main section specials */
-
 body .container .specials-box{
     margin-top: 250px;
 }
@@ -111,7 +107,6 @@ body .container .specials-box .view-more{
    margin-left: 1000px;
     margin-top: 80px;
 }
-
 /* footer */
 footer{
     background-color: #F5EFEF;
@@ -120,7 +115,6 @@ body footer .footer-box {
     height: 300px;
     margin-top: 200px;
 }
-
 body footer .footer-box .logo-socials .socials {
     display: flex;
     gap: 27px;
@@ -136,7 +130,6 @@ body footer .footer-box .footer-li{
     gap: 145px;
 }
 body footer .footer-box .footer-li ul li a{
-    
     font-size: 16px;
     line-height: 22px;
     color: #75464A;
@@ -149,7 +142,6 @@ display: flex;
 align-items: center;
 gap: 18px;
 }
-
 /* gallery page */
 body main .gallery h1{
     font-family:"cinzel-700", sans-serif;
@@ -175,9 +167,7 @@ body main .gallery .gallery-imgs img:hover {
     transform: scale(1.1); 
     filter: drop-shadow(0px 0px 20px rgba(212, 18, 18, 0.25));
 }
-
 /* faq page */
-
 body main .faq-page h1{
     font-family:"cinzel-700", sans-serif;
     font-size: 18px;
@@ -273,10 +263,8 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     width: 400px;
-    height: 400px;
-    
+    height: 400px; 
 }
-
 iframe {
     margin:65px 0 15px;
     align-items: center;
@@ -284,7 +272,6 @@ iframe {
     width: 400px;
     height: 400px;
 }
-
 .send-button{
     background-color: #3F3232;
     color:#FFFFFF;
@@ -295,8 +282,29 @@ iframe {
     margin-top: 40px;
     cursor: pointer;
 }
-
 .required{
     color: #FF0000;
     margin-right: 295px;
+}
+.marking-block{
+    display:flex;
+    align-items: center;
+    gap: 11px;
+    margin-left: 120px;
+}
+
+#privacy-policy-checkbox{
+    margin-top: 50px;
+}
+.marking-block input{
+    width: 25px;
+    height: 25.17px;
+    border-radius: 10px;
+}
+.marking-block label{
+    font-size: 12px;
+    line-height: 16px;
+}
+.marking-block a{
+    color:#0057FF;
 }
